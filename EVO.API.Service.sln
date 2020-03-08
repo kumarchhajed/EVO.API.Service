@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2043
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EVO.API.Service", "EVO.API.Service\EVO.API.Service.csproj", "{D51008D2-497D-414A-932E-4DEA0CBE2322}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EVO.API.Service.Tests", "EVO.API.Service.Tests\EVO.API.Service.Tests.csproj", "{C974C945-4B3A-4D2E-9697-BB602EB93905}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D51008D2-497D-414A-932E-4DEA0CBE2322}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D51008D2-497D-414A-932E-4DEA0CBE2322}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D51008D2-497D-414A-932E-4DEA0CBE2322}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D51008D2-497D-414A-932E-4DEA0CBE2322}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C974C945-4B3A-4D2E-9697-BB602EB93905}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C974C945-4B3A-4D2E-9697-BB602EB93905}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C974C945-4B3A-4D2E-9697-BB602EB93905}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C974C945-4B3A-4D2E-9697-BB602EB93905}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {68CEF1C3-C0A7-42ED-A572-19D3F9A0C9E5}
+	EndGlobalSection
+EndGlobal

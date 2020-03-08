@@ -1,0 +1,172 @@
+{
+	"info": {
+		"_postman_id": "f9e1bc53-0f41-4527-96b2-f86c06601e2d",
+		"name": "Contacts",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Contact Information",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"ID\":\"5\",\n    \"FirstName\": \"Kumar\",\n    \"LastName\": \"Sangakara\",\n    \"Email\": \"kumar@outlook.com\",\n    \"PhoneNumber\": \"985688785\",\n    \"Status\": true\n}"
+				},
+				"url": {
+					"raw": "http://localhost:59162/api/Contacts",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "59162",
+					"path": [
+						"api",
+						"Contacts"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete Contact",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"ID\":\"5\",\n    \"FirstName\": \"Kumar\",\n    \"LastName\": \"Sangakara\",\n    \"Email\": \"kumar@outlook.com\",\n    \"PhoneNumber\": \"985688785\",\n    \"Status\": true\n}"
+				},
+				"url": {
+					"raw": "http://localhost:59162/api/Contacts/5",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "59162",
+					"path": [
+						"api",
+						"Contacts",
+						"5"
+					]
+				},
+				"description": "http://localhost:59162/api/Contacts/5"
+			},
+			"response": []
+		},
+		{
+			"name": "Put/Edit Contact",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"ID\":\"5\",\n    \"FirstName\": \"Kumar\",\n    \"LastName\": \"Sangakara\",\n    \"Email\": \"kumar@outlook.com\",\n    \"PhoneNumber\": \"985688785\",\n    \"Status\": true\n}"
+				},
+				"url": {
+					"raw": "http://localhost:59162/api/Contacts/5",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "59162",
+					"path": [
+						"api",
+						"Contacts",
+						"5"
+					]
+				},
+				"description": "http://localhost:59162/api/Contacts/5"
+			},
+			"response": []
+		},
+		{
+			"name": "Post/ Add Contact",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"FirstName\": \"Kumar\",\n    \"LastName\": \"Sanu\",\n    \"Email\": \"kumar@outlook.com\",\n    \"PhoneNumber\": \"45454545\",\n    \"Status\": true\n}"
+				},
+				"url": {
+					"raw": "http://localhost:59162/api/Contacts",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "59162",
+					"path": [
+						"api",
+						"Contacts"
+					]
+				},
+				"description": "http://localhost:59162/api/Contacts"
+			},
+			"response": []
+		},
+		{
+			"name": "Get all Conatcts",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"ID\": \"3\",\n    \"FirstName\": \"Ankita\",\n    \"LastName\": \"Chhajed\",\n    \"Email\": \"a@a.com\",\n    \"PhoneNumber\": \"454545\",\n    \"Status\": true\n}"
+				},
+				"url": {
+					"raw": "http://localhost:59162/api/Contacts",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "59162",
+					"path": [
+						"api",
+						"Contacts"
+					]
+				},
+				"description": "http://localhost:59162/api/Contacts"
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
